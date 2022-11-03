@@ -14,7 +14,7 @@ const bmx = new Bike('Red', 40)
 console.log('Created Bmx bike.\nStatus:')
 bmx.status()
 
-console.log('Set the cadense to 10')
+console.log('Set the cadence to 10')
 bmx.accelerate(10)
 bmx.status()
 
@@ -38,7 +38,7 @@ console.log('\nBreaking, 10 of power for 10 sec.')
 bigTruck.accelerate(10, 10)
 console.log('New speed: ' + String(bigTruck.getSpeed()))
 
-console.log('\nApplyed air pressure of 10:')
+console.log('\nApplied air pressure of 10:')
 bigTruck.provideAir(10)
 console.log('New speed: ' + String(bigTruck.getSpeed()))
 
